@@ -1,0 +1,6 @@
+@GrpcWAPITest_HostAddress = http://localhost:5191
+
+GET {{GrpcWAPITest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
